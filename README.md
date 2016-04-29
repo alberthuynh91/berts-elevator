@@ -5,11 +5,11 @@ My implementation of an elevator in Javascript. I am following the guidelines I 
 
 For this portion of the code challenge, you will develop code that renders an elevator panel that matches the provided mockup (I was not given a mockup, so I made my own). You will then be adding JS code to make the elevator panel function according to the functional requirements below. You can control which way the elevator moves by selecting the “floor” buttons on the panel. As soon as a button is selected, the elevator will begin moving toward that floor.
 
-### UI Requirements:
+#### UI Requirements:
 
 A display panel that indicates the number of the current floor Green and red lights indicating whether the elevator is going up (green) or down (red) Four floor buttons (I modified it to have five button/five floors)
 
-### Functional Requirements:
+#### Functional Requirements:
 
 - A floor can be selected from the elevator panel
 - When a floor is selected, its button is highlighted.
