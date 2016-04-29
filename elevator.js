@@ -32,6 +32,7 @@ Elevator.prototype.selectFloor = function(floorNum) {
 
 Elevator.prototype.moveToFloor = function(floorNum, direction) {
   var self = this;
+  // Calculate time it takes to move to selected floor
   var moveDuration = Math.abs(this.currentFloor - floorNum) * this.elevatorSpeed;
   console.log("Moving to floor: " + floorNum + " in direction " + direction);
 
@@ -43,6 +44,8 @@ Elevator.prototype.moveToFloor = function(floorNum, direction) {
   } else if (direction === -1) {
     $("#down-indicator").addClass("arrowLitDown");
   }
+  // Set dislayPanel to show current floor
+  $("#floor-number").text("" + floorNum +"");
     // Move up to the floor
     setTimeout(function () {
       // Set current floor to floorNum pressed
