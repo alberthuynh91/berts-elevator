@@ -1,0 +1,46 @@
+.displayPanel {
+  display: block;
+  margin: auto;
+  width: 10em;
+  font-size: 2em;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.displayPanel div {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+}
+
+.elevatorPanel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.elevatorPanel button{
+  display: block;
+  margin: auto;
+  width: 10em;
+  font-size: 2em;
+}
+
+.elevatorButton {
+  display: block;
+  float: left;
+}
+
+.arrowLitUp{
+  color: #40ff00;
+}
+
+.arrowLitDown{
+  color: red;
+}
+
+.numberLit {
+  color: #ff5c33;
+}
